@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
 // const port = 3000
-const Expense = require('./models/expense')
+const Expense = require('./expense')
 mongoose.connect('mongodb+srv://prassha:prassha09@cluster0.70epywk.mongodb.net/newDb?retryWrites=true&w=majority',{
     useUnifiedTopology:true
 });
